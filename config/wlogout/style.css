@@ -1,0 +1,27 @@
+* {
+    all: unset;
+    font-family: monospace;
+    font-size: 16px;
+    transition: 200ms ease-in;
+}
+
+window {
+    background-color: rgba(0, 0, 0, 0.9); /* Solid Black */
+}
+
+button {
+    color: #ffffff; /* White text */
+    border: 2px solid #ffffff; /* White border */
+    border-radius: 8px;
+    margin: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+}
+
+button:focus, button:active, button:hover {
+    background-color: #ffffff; /* White fill on hover */
+    color: #000000; /* Black text on hover */
+    outline: none;
+}
+

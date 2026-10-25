@@ -1,0 +1,111 @@
+/* Remove all rounded corners */
+* {
+  border-radius: 0px;
+  border: none;
+}
+
+/* Notification Window Base */
+.floating-notifications.background {
+  background: transparent;
+}
+
+/* Individual Notifications */
+.notification-row .notification-background {
+  background-color: #000000;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Notification Header */
+.notification .notification-header {
+  background: transparent;
+}
+
+.notification .notification-header .app-name {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.notification .notification-header .time {
+  color: #cccccc;
+}
+
+/* Notification Content */
+.notification .notification-content {
+  background: transparent;
+}
+
+.notification .notification-content .summary {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.notification .notification-content .body {
+  color: #cccccc;
+}
+
+/* Notification Actions */
+.notification .notification-action {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #ffffff;
+  margin-top: 5px;
+}
+
+.notification .notification-action:hover {
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+/* Control Center */
+.control-center {
+  background-color: #000000;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 10px;
+}
+
+/* Control Center Widgets (Buttons, Toggles, Sliders) */
+.widget-title {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.widget-buttons-grid .btn {
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.widget-buttons-grid .btn:checked {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.widget-slider slider {
+  background-color: #ffffff;
+}
+
+.widget-slider trough {
+  background-color: #000000;
+}
+
+/* Footer / Clear Button */
+.control-center .footer {
+  border-top: 1px solid #ffffff;
+}
+
+.control-center .footer .button-clear {
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.control-center .footer .button-clear:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+

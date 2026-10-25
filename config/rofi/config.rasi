@@ -1,0 +1,66 @@
+configuration {
+    display-drun:" ";
+    modi: "drun,run";
+    show-icons: false;
+    font: "GoMono Nerd Font 9";
+}
+* {
+    background: rgba(50, 50, 50, 0.0);
+    foreground: #ffffff;
+    border-color: rgba(122,122,122,0.00);
+}
+
+window {
+    width: 30%;
+    border: 2px;
+    border-radius: 0px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 1.00);
+    location:south;
+}
+
+mainbox {
+    spacing: 4px;
+}
+
+inputbar {
+    background: transparent;
+    border-radius: 0px;
+    padding: 8px;
+}
+
+entry {
+    placeholder: "Search...";
+}
+listview {
+    lines: 5;
+    fixed-height: false;
+    scrollbar: false;
+    spacing: 4px;
+}
+element {
+    padding: 8px;
+    border-radius: 0px;
+}
+element normal.normal {
+    background-color: #101010;
+    text-color: #ffffff;
+}
+element alternate.normal {
+    background-color: #101010;
+    text-color: #ffffff;
+}
+element selected.normal {
+    background-color: rgba(255,255,255,0.2);
+    text-color: #ffffff;
+}
+element selected.alternate {
+    background-color: rgba(255,255,255,0.08);
+    text-color: #ffffff;
+}
+element-icon {
+    size: 25px;
+}
+element-text {
+    text-color: #ffffff;
+}
